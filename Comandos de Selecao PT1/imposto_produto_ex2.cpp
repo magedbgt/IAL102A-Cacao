@@ -17,11 +17,11 @@ int main(){
 	
 	if(tipo == 'N'){
 		//se o produto for nacional
-		imposto = 0.05;
+		imposto = 0.05f;
 	}
 	else{
 		//caso seja internacional
-		imposto = 0.1;
+		imposto = 0.1f;
 	}
 	
 	//calcular valor final do produto

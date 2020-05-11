@@ -17,11 +17,11 @@ int main(){
 	
 	if(tipo == 'R'){
 		//caso seja residencial
-		custo = 0.03;
+		custo = 0.03f;
 	}
 	else{
 		//caso seja comercial
-		custo = 0.05;
+		custo = 0.05f;
 	}
 	
 	//calculo de valor da conta

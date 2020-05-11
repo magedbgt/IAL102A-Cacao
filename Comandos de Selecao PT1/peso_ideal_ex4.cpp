@@ -17,12 +17,12 @@ int main(){
 	
 	if(sexo == 'F'){
 		//caso seja do sexo feminino
-		coeficiente1 = 62.1;
-		coeficiente2 = 44.7;
+		coeficiente1 = 62.1f;
+		coeficiente2 = 44.7f;
 	}
 	else{
 		//caso seja do sexo masculino
-		coeficiente1 = 72.7;
+		coeficiente1 = 72.7f;
 		coeficiente2 = 58;
 	}
 	

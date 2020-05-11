@@ -20,7 +20,7 @@ int main(){
 	cin>>prestacoes;
 	
 	//calcular o valor maximo de uma parcela
-	maxvalorparcela = salario*0.3;
+	maxvalorparcela = salario*0.3f;
 	//calcular o minimo de prestacoes
 	minprestacoes = emprestimo/maxvalorparcela;
 	//arredondar para o numero de meses
