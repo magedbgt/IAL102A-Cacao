@@ -4,7 +4,8 @@
 using namespace std;
 
 //variaveis
-float area, preco, iptu;
+float area, iptu;
+int preco;
 char tipo;
 
 int main()
@@ -21,13 +22,13 @@ int main()
 
 	//preco por tipo
 	if (tipo == 'R') {
-		preco = 2.0;
+		preco = 2;
 	}
 	else if (tipo == 'C') {
-		preco = 4.0;
+		preco = 4;
 	}
 	else {
-		preco = 5.0;
+		preco = 5;
 	}
 
 	//calculo

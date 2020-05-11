@@ -2,7 +2,8 @@
 #include <locale.h>
 
 //declaração de variáveis
-float precoPlano, precoMB, consumo, aPagar;
+float precoMB, consumo, aPagar;
+int precoPlano;
 char plano;
 
 int main() {
@@ -18,15 +19,15 @@ int main() {
 	//logica para atribuição do preço
 	if (plano == 'O') {
 		precoPlano = 50;
-		precoMB = 0.3;
+		precoMB = 0.3f;
 	}
 	else if (plano == 'P') {
 		precoPlano = 30;
-		precoMB = 0.5;
+		precoMB = 0.5f;
 	}
 	else{
 		precoPlano = 20;
-		precoMB = 0.8;
+		precoMB = 0.8f;
 	}
 
 	//calculo a pagar
